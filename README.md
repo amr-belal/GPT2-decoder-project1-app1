@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🤖 Fine-Tuning GPT-2 with LoRA for Text Generation
 
