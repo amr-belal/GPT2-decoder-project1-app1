@@ -1,6 +1,6 @@
+---
 
-```python
-readme_content = """
+```markdown
 # 🤖 Fine-Tuning GPT-2 with LoRA for Text Generation
 
 This project demonstrates how to fine-tune OpenAI's GPT-2 model using the [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685) technique for efficient adaptation. The model is trained on the WikiText-2 dataset for causal language modeling and includes both an interactive Jupyter interface (`ipywidgets`) and a command-line-based generation loop.
@@ -9,17 +9,17 @@ This project demonstrates how to fine-tune OpenAI's GPT-2 model using the [LoRA 
 
 ## 🚀 Features
 
-- 🔧 **LoRA-enabled Fine-Tuning** with the `peft` library  
-- 📚 Preprocessed **WikiText-2** dataset from Hugging Face  
-- ⚙️ Configurable training pipeline using `Trainer`  
-- 📊 Evaluation and generation support  
+- 🔧 **LoRA-enabled Fine-Tuning** with the `peft` library
+- 📚 Preprocessed **WikiText-2** dataset from Hugging Face
+- ⚙️ Configurable training pipeline using `Trainer`
+- 📊 Evaluation and generation support
 - 🧠 Interactive UI for real-time text generation with:
   - Temperature
   - Top-k / Top-p sampling
   - Max length
-- 💬 CLI-based generation loop  
-- ☁️ Optional: Save trained model to Google Drive  
-- 🌐 (Optional) Streamlit + ngrok for deployment  
+- 💬 CLI-based generation loop
+- ☁️ Optional: Save trained model to Google Drive
+- 🌐 (Optional) Streamlit + ngrok for deployment
 
 ---
 
@@ -46,11 +46,11 @@ pip install transformers datasets peft torch ipywidgets streamlit pyngrok
 
 ## 📁 Dataset
 
-**WikiText-2 (raw)** from Hugging Face Datasets:
-```python
-from datasets import load_dataset
-dataset = load_dataset("wikitext", "wikitext-2-raw-v1")
-```
+- **WikiText-2 (raw)** from Hugging Face Datasets:
+  ```python
+  from datasets import load_dataset
+  dataset = load_dataset("wikitext", "wikitext-2-raw-v1")
+  ```
 
 ---
 
@@ -135,11 +135,8 @@ authkey = userdata.get('ngrokauth')
 
 ## 👥 Contributors
 
-- Ibrahim Abdelsattar (Team Leader)  
-- Amr Belal  
-- Nour Mostafa  
-- Moaz Ramadan  
-- Noran Alaa  
+- **Your Name** *(Team Leader or Author)*
+- You can add your collaborators here
 
 ---
 
@@ -152,13 +149,19 @@ Feel free to reuse, share, or modify!
 
 ## 🙌 Acknowledgments
 
-- Hugging Face for Transformers & Datasets  
-- PEFT team for LoRA  
+- Hugging Face for Transformers & Datasets
+- PEFT team for LoRA
 - Google Colab for training environment
 
 ---
 
 > 💡 *Ready to build and deploy your own fine-tuned GPT-2? Start generating some magic!*
-"""
-print(readme_content)
 ```
+
+Let me know if you’d like to add:
+- A badge section (e.g., Colab, Python version, etc.)
+- Example images/screenshots
+- `requirements.txt` auto-generated from your environment  
+- or turn this into a project card for GitHub!
+
+I got you 👨‍💻
