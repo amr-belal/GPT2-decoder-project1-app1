@@ -1,4 +1,4 @@
-```markdown
+
 # 🤖 Fine-Tuning GPT-2 with LoRA for Text Generation
 
 This project demonstrates how to fine-tune OpenAI's GPT-2 model using the [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685) technique for efficient adaptation. The model is trained on the WikiText-2 dataset for causal language modeling and includes both an interactive Jupyter interface (`ipywidgets`) and a command-line-based generation loop.
